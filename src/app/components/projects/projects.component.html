@@ -1,0 +1,86 @@
+<div style="height: 100%;">
+<div class="my-3 align-items-center">
+    <div class="row my-3">
+        <a href="https://play.google.com/store/apps/details?id=com.hanykumar.tasklist"
+            class="p-5 text-decoration-none text-reset">
+            <div class="fs-3">Task List Android App</div>
+            <div class="fill-div py-2">
+                <div class="fs-5">Tech used React Native, Firebase, </div>
+            </div>
+        </a>
+    </div>
+    <div class="row">
+        <div class="d-flex position-relative w-100">
+            <div class="image-wrapper" [ngStyle]="{'z-index': +i}" [ngStyle]="{'top.px': 0}"
+            [ngStyle]="{'left': i * 10 + '%'}"  *ngFor="let img of tasklist_app_images; let i = index" >
+                <img [src]="img" class="img-fluid" [alt]="img"  />
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 
+<div class="my-3 align-items-center">
+    <div class="row my-3">
+        <a href="https://play.google.com/store/apps/details?id=com.hanykumar.tasklist"
+            class="p-5 text-decoration-none text-reset">
+            <div class="fs-3">Task List Web App</div>
+            <div class="fill-div py-2">
+                <div class="fs-5">Tech used React Native, Firebase, </div>
+            </div>
+        </a>
+    </div>
+    <div class="row">
+        <div class="d-flex position-relative w-100">
+            <div class="image-wrapper" [ngStyle]="{'z-index': +i}" [ngStyle]="{'top.px': 0}"
+            [ngStyle]="{'left': i * 10 + '%'}"  *ngFor="let img of tasklist_app_images; let i = index" >
+                <img [src]="img" class="img-fluid" [alt]="img"  />
+            </div>
+        </div>
+    </div>
+</div> -->
+</div>
+
+
+
+<!-- <div class="row my-3 align-items-center">
+        <div class="col-md-6 rounded">
+            <a href="https://play.google.com/store/apps/details?id=com.hanykumar.tasklist"
+                class="p-5 text-decoration-none text-reset">
+                <div>Task List Android App</div>
+                <div class="fill-div">
+                    <div>Tech used React Native, Firebase, </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-6 mt-3 bg-secondary">
+            image
+            <div class="fill-div">
+                details
+            </div>
+        </div>
+    </div> -->
+
+
+<!-- <div class="h-100 d-flex align-items-center">
+    <div class="flex w-100">
+        <div class="fs-3">Personal Project (live)</div>
+        <div class="d-flex justify-content-between flex-wrap my-3">
+            <div class="bg-light border-1 rounded p-5 m-3 w-50">
+                <div>Task List Android App</div>
+                <div>Tech used React Native, Firebase, </div>
+            </div>
+            <div class="w-50 bg-light m-3 p-5">
+                Image
+            </div>
+        </div>
+        <div class="d-flex justify-content-between flex-wrap my-2">
+            <div class="bg-light border-1 rounded p-5">
+                <div>Task List Web App </div>
+                <div>NextJs, Firebase,</div>
+            </div>
+            <div>
+                Image
+            </div>
+        </div>
+    </div>
+</div> -->

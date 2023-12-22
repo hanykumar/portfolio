@@ -1,0 +1,17 @@
+<div class="h-100 row align-items-center">
+    <div class="w-100 row flex-wrap">
+        <h3>Education:</h3>
+        <div *ngFor="let edu of education" class="col-lg-6 col-md-12">
+            <div class="p-5 bg-light border  rounded">
+                <h5 class="mb-2 fs-4">{{ edu.degree }}</h5>
+                <h5 class="mb-2 fs-6">{{ edu.specialization }}</h5>
+                <h5 class="mb-2 fs-6">{{ edu.school }}</h5>
+                <h5 class="mb-2 fs-6">{{ edu.location }}</h5>
+                <div class="d-flex">
+                    <h5 class="mb-2 fs-6">{{ edu.startDate }} </h5>
+                    <h5 class="mb-2 fs-6">- {{ edu.endDate }}</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

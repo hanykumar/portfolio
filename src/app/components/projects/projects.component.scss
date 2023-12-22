@@ -1,0 +1,26 @@
+.image-wrapper {
+  // width: 400px; /* Adjust as needed */
+  // margin-right: 10px; /* Add margin between images */
+  overflow: hidden;
+  position: absolute;
+  transition: transform 0.3s ease-in-out;
+  // padding: 3px;
+  border-radius: 20px;
+  border: 6px solid rgb(255, 255, 255);
+}
+
+.image-wrapper img {
+  max-width: 200px;
+  height: auto;
+  object-fit: cover;
+  // border-radius: 30px;
+  // border: 6px solid solid;
+}
+
+.image-wrapper:hover {
+  transform: scale(1.8);
+  z-index: 100;
+}
+.img-fluid{
+  max-width: none;
+}
