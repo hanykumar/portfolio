@@ -13,6 +13,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 })
 export class HeaderComponent {
   profile_pic: string = 'assets/profile_pic.jpg'
+  linkedin_icon = 'assets/icons/linkedin.svg'
 
    closeNavbar = () => {
     var navbarToggleBtn = document.getElementById('navbarToggleBtn');
