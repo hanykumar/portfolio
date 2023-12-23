@@ -13,7 +13,7 @@ body {
 
 body {
     margin: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: 1.5;
 }
 
@@ -52,4 +52,39 @@ p {
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     line-height: 1.5;
+}
+
+.heading {
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+.subheading {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+.darkGray {
+    color: rgb(77, 77, 77);
+}
+.darkGrayBg{
+    background-color: #007958 !important;
+}
+.primary-color {
+    color: #007958;
+}
+.primary-bg-color {
+    background-color: #007958;
+}
+
+.btn.menu-btn:focus {
+    outline: 1px solid gray !important;
+    box-shadow: none; /* Optional: Remove box-shadow as well */
+}
+.btn.menu-btn:active {
+    border: none;
 }

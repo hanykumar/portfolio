@@ -1,14 +1,18 @@
-<div class="row align-items-center my-5">
-    <h3 class="fs-3">Skills:</h3>
-    <div *ngFor="let category of skills" class="mb-5 mt-2">
-        <h5 class="mb-2 fs-4">{{ category.tech }}:</h5>
-        <!-- <div class="d-flex"> -->
-            <div class="w-100 mr-3 mb-2" *ngFor="let skill of category.skills">
-                <div class="d-flex w-100 justify-content-center align-items-center position-relative border rounded">
-                    <div  class="progress" role="progressbar" style="width: 100%; height: 50px;"
+<div class="row my-5 py-5" id="technical-skills">
+    <div class="col-12 py-5">
+        <div class=" my-3">
+            <div class="heading">Technical Skills</div>
+            <!-- <div class="fs-2 py-5">Assuming skills are too </div> -->
+            <div class="subheading text-secondary">Crafting Success with Every Skill</div>
+        </div>
+        <div *ngFor="let category of skills" class="row pb-4 pt-2">
+            <div class="mb-4 fs-4 darkGray">{{ category.tech }}:</div>
+            <div class="w-100 mr-3 mb-3 d-flex justify-content-center flex-wrap" *ngFor="let skill of category.skills" style="max-width: 350px">
+                <div class="d-flex w-100 flex-wrap align-items-center position-relative border rounded">
+                    <div class="progress" role="progressbar" style="width: 100%; height: 30px;"
                         aria-label="Success example" [attr.aria-valuenow]="skill.rating" aria-valuemin="0"
                         aria-valuemax="100">
-                        <div class="progress-bar overflow-visible bg-secondary" [style.width]="skill.rating + '%'">
+                        <div class="progress-bar align-items-start px-4 overflow-visible darkGrayBg " [style.width]="skill.rating + '%'">
                             <div class="text-light fs-6  ">
                                 {{skill.name}}
                             </div>
@@ -16,6 +20,6 @@
                     </div>
                 </div>
             </div>
-        <!-- </div> -->
+        </div>
     </div>
 </div>

@@ -7,13 +7,13 @@ export const Skills  = [
           "id": 0,
           "name": "JavaScript",
           "description": "",
-          "rating": "60"
+          "rating": "80"
         },
         {
           "id": 1,
           "name": "TypeScript",
           "description": "",
-          "rating": "80"
+          "rating": "70"
         }
       ]
     },
@@ -25,13 +25,13 @@ export const Skills  = [
           "id": 0,
           "name": "Angular v13",
           "description": "",
-          "rating": "20"
+          "rating": "80"
         },
         {
           "id": 1,
           "name": "Next.js v14",
           "description": "",
-          "rating": "90"
+          "rating": "70"
         },
         {
           "id": 2,
@@ -49,7 +49,7 @@ export const Skills  = [
           "id": 4,
           "name": "Node.js and Express",
           "description": "",
-          "rating": "70"
+          "rating": "60"
         }
       ]
     },
@@ -73,13 +73,13 @@ export const Skills  = [
           "id": 0,
           "name": "Bootstrap",
           "description": "",
-          "rating": "70"
+          "rating": "80"
         },
         {
           "id": 1,
           "name": "Material-UI",
           "description": "",
-          "rating": "70"
+          "rating": "80"
         },
         {
           "id": 2,
@@ -97,19 +97,19 @@ export const Skills  = [
           "id": 0,
           "name": "HTML5",
           "description": "",
-          "rating": "70"
+          "rating": "90"
         },
         {
           "id": 1,
           "name": "CSS3",
           "description": "",
-          "rating": "70"
+          "rating": "80"
         },
         {
           "id": 2,
           "name": "SCSS",
           "description": "",
-          "rating": "70"
+          "rating": "80"
         }
       ]
     },
@@ -121,13 +121,13 @@ export const Skills  = [
           "id": 0,
           "name": "PostgreSQL",
           "description": "",
-          "rating": "70"
+          "rating": "60"
         },
         {
           "id": 1,
           "name": "MongoDB",
           "description": "",
-          "rating": "70"
+          "rating": "60"
         }
       ]
     },

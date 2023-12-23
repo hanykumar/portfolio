@@ -12,5 +12,12 @@ import {MatToolbarModule} from '@angular/material/toolbar';
   styleUrl: './header.component.scss'
 })
 export class HeaderComponent {
-  icon: string = 'assets/icon.png'
+  profile_pic: string = 'assets/profile_pic.jpg'
+
+   closeNavbar = () => {
+    var navbarToggleBtn = document.getElementById('navbarToggleBtn');
+    if (navbarToggleBtn) {
+        navbarToggleBtn.click();
+    }
+}
 }

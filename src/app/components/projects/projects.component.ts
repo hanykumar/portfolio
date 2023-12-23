@@ -19,4 +19,13 @@ export class ProjectsComponent {
     'assets/tasklist-app-images/img_5.jpg',
     'assets/tasklist-app-images/img_6.jpg',
   ]
+
+  tasklist_web_images = [
+    'assets/tasklist-web-images/img_web_1.png',
+    'assets/tasklist-web-images/img_web_2.png',
+    'assets/tasklist-web-images/img_web_3.png',
+    'assets/tasklist-web-images/img_web_4.png',
+    'assets/tasklist-web-images/img_web_5.png',
+    'assets/tasklist-web-images/img_web_6.png',
+  ]
 }

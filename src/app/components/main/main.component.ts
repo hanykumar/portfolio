@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './main.component.scss'
 })
 export class MainComponent {
-
+  profile_complete = "assets/complete_profile_1.png"
 }

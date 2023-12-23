@@ -1,15 +1,20 @@
-<div class="h-100 row align-items-center">
-    <div class="w-100 row flex-wrap">
-        <h3>Education:</h3>
-        <div *ngFor="let edu of education" class="col-lg-6 col-md-12">
-            <div class="p-5 bg-light border  rounded">
-                <h5 class="mb-2 fs-4">{{ edu.degree }}</h5>
-                <h5 class="mb-2 fs-6">{{ edu.specialization }}</h5>
-                <h5 class="mb-2 fs-6">{{ edu.school }}</h5>
-                <h5 class="mb-2 fs-6">{{ edu.location }}</h5>
-                <div class="d-flex">
-                    <h5 class="mb-2 fs-6">{{ edu.startDate }} </h5>
-                    <h5 class="mb-2 fs-6">- {{ edu.endDate }}</h5>
+<div class="h-100 row align-items-center my-5 py-5" id="education">
+    <div class="col-12 py-5">
+        <div class="row flex-wrap">
+            <div class="py-3">
+                <div class="heading">Education</div>
+                <div class="subheading text-secondary">A Journey of Knowledge and Growth</div>
+            </div>
+            <div *ngFor="let edu of education" class="col-lg-6 col-12" style="height: max-content;">
+                <div class="p-5 bg-light mb-2 border text-secondary rounded">
+                    <div class=" fs-4 darkGray">{{ edu.degree }}</div>
+                    <div class=" fs-5 mb-2">{{ edu.specialization }}</div>
+                    <div class=" fs-5 darkGray">{{ edu.school }}</div>
+                    <div class=" fs-5 mb-2">{{ edu.location }}</div>
+                    <div class="d-flex text-secondary">
+                        <div class=" fs-6">{{ edu.startDate }} </div>
+                        <div class=" fs-6"> <span class="mx-2">-</span>{{ edu.endDate }}</div>
+                    </div>
                 </div>
             </div>
         </div>

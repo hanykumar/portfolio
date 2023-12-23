@@ -1,23 +1,57 @@
-<div style="height: 100%;">
-<div class="my-3 align-items-center">
-    <div class="row my-3">
-        <a href="https://play.google.com/store/apps/details?id=com.hanykumar.tasklist"
-            class="p-5 text-decoration-none text-reset">
-            <div class="fs-3">Task List Android App</div>
-            <div class="fill-div py-2">
-                <div class="fs-5">Tech used React Native, Firebase, </div>
+<div class="row my-5 py-5" id="projects">
+    <div class="col-11 py-5">
+        <div class="py-3">
+            <div class="heading">Projects</div>
+            <div class="subheading text-secondary">Personal Projects, Professional Impact</div>
+        </div>
+        <div class="row">
+            <div class="col-12 position-relative">
+                <div class="my-3">
+                    <div class="text-decoration-none text-reset">
+                        <a target="_blank" href="https://play.google.com/store/apps/details?id=com.hanykumar.tasklist"
+                            class="fs-4">Task List Android App</a>
+                        <!-- <div class="fill-div"> -->
+                        <div class="fs-5 text-secondary">Built with React Native using Native Base</div>
+                        <!-- </div> -->
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center position-relative w-100 "
+                    style="height: 350px; width: fit-content;">
+                    <div class="image-wrapper" style="height: inherit" [ngStyle]="{'z-index': +i}"
+                        [ngStyle]="{'top.px': 0}" [ngStyle]="{'left': i * 10 + '%'}"
+                        *ngFor="let img of tasklist_app_images; let i = index">
+                        <img [src]="img" class="img-fluid" [alt]="img" style="height: 100%;" />
+                    </div>
+                </div>
             </div>
-        </a>
-    </div>
-    <div class="row">
-        <div class="d-flex position-relative w-100">
-            <div class="image-wrapper" [ngStyle]="{'z-index': +i}" [ngStyle]="{'top.px': 0}"
-            [ngStyle]="{'left': i * 10 + '%'}"  *ngFor="let img of tasklist_app_images; let i = index" >
-                <img [src]="img" class="img-fluid" [alt]="img"  />
+        </div>
+
+
+        <div class="row my-5">
+            <div class="col-12 position-relative">
+                <div class="my-3">
+                    <div class="text-decoration-none text-reset">
+                        <a target="_blank" href="https://tasklist-hanykumar.vercel.app" class="fs-4">Task List Web
+                            App</a>
+                        <!-- <div class="fill-div"> -->
+                        <div class="fs-5 text-secondary">Built with React using tailwind css</div>
+                        <!-- </div> -->
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center position-relative w-100" 
+                    style="height: 20vh; width: fit-content;">
+                    <div class="image-wrapper" style="width: 50%;"
+                        [ngStyle]="{'z-index': tasklist_web_images.length + 1 - i}" [ngStyle]="{'top.px': 0}"
+                        [ngStyle]="{'left': i * 10 + '%'}" *ngFor="let img of tasklist_web_images; let i = index">
+                        <img [src]="img" class="img-fluid" [alt]="img" style="width: 100%;" />
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
+
+<!-- </div> -->
 <!-- 
 <div class="my-3 align-items-center">
     <div class="row my-3">
@@ -38,7 +72,7 @@
         </div>
     </div>
 </div> -->
-</div>
+
 
 
 
