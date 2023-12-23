@@ -48,10 +48,8 @@ h5,
 h6,
 div,
 p {
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
-    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif !important;
+    line-height: 1.5 !important;
 }
 
 .heading {
@@ -72,13 +70,13 @@ p {
     color: rgb(77, 77, 77);
 }
 .darkGrayBg{
-    background-color: #007958 !important;
+    background-color: rgb(77, 77, 77) !important;
 }
 .primary-color {
     color: #007958;
 }
 .primary-bg-color {
-    background-color: #007958;
+    background-color: #007958 !important;
 }
 
 .btn.menu-btn:focus {
