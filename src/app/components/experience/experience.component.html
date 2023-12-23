@@ -3,12 +3,12 @@
     <div class="row align-items-center justify-content-center flex-wrap my-3" *ngFor="let exp of experience">
         <div class="col-lg-6 ">
             <div class="p-4">
-                <h5 class="mb-2 fs-4">{{ exp.position }}</h5>
-                <h5 class="mb-2 fs-5">{{ exp.company }}</h5>
-                <h5 class="mb-2 fs-6">{{ exp.location }}</h5>
+                <p class="fs-3">{{ exp.position }}</p>
+                <p class="fs-4">{{ exp.company }}</p>
+                <p class="fs-6">{{ exp.location }}</p>
                 <div class="d-flex ">
-                    <p class="mb-2 fs-6">{{ exp.startDate }} </p>
-                    <p class="mb-2 fs-6"> - {{ exp.endDate }}</p>
+                    <p class="fs-6">{{ exp.startDate }} </p>
+                    <p class="fs-6"> - {{ exp.endDate }}</p>
                 </div>
             </div>
         </div>
