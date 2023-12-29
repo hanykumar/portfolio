@@ -20,8 +20,8 @@ export const Experience = [
       "endDate": "Jul 2021",
       "responsibilities": [
         "Contributed to live websites, including GeekyAnts, TheTopGeek, and NativeBase.",
-        "Worked on TheTopGeek web development, a job portal, and contributed to NativeBase a little, a React-Native mobile app component library.",
-        "Got chance to learn backend development of the GeekyAnts website."
+        "Worked on TheTopGeek web development, a job portal, and contributed to NativeBase, a React-Native mobile app component library.",
+        "Worked on backend development of the GeekyAnts website."
       ]
     },
     {
@@ -31,7 +31,7 @@ export const Experience = [
       "startDate": "Jul 2019",
       "endDate": "Dec 2019",
       "responsibilities": [
-        "Started learning and implementing Angular for transforming desktop application to web application using REST API services"
+        "Started learning and implementing web development for transforming desktop application to web application using REST API services"
       ]
     }
   ]
