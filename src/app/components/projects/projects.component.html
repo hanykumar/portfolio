@@ -39,10 +39,33 @@
                     </div>
                 </div>
                 <div class="d-flex justify-content-center position-relative w-100" 
-                    style="height: 20vh; width: fit-content;">
+                    style="height: 40vh; width: fit-content;">
                     <div class="image-wrapper" style="width: 50%;"
                         [ngStyle]="{'z-index': tasklist_web_images.length + 1 - i}" [ngStyle]="{'top.px': 0}"
                         [ngStyle]="{'left': i * 10 + '%'}" *ngFor="let img of tasklist_web_images; let i = index">
+                        <img [src]="img" class="img-fluid" [alt]="img" style="width: 100%;" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row my-5">
+            <div class="col-12 position-relative">
+                <div class="my-3">
+                    <div class="text-decoration-none text-reset">
+                        <a target="_blank" href="https://javascriptcompiler-hanykumar.vercel.app/" 
+                        class="fs-4 darkGray">JavaScript Compiler
+                            App</a>
+                        <!-- <div class="fill-div"> -->
+                        <div class="fs-5 text-secondary">Basic JavaScript compiler for testing purpose</div>
+                        <!-- </div> -->
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center position-relative w-100" 
+                    style="height: 20vh; width: fit-content;">
+                    <div class="image-wrapper" style="width: 50%;"
+                        [ngStyle]="{'z-index': javascript_compiler_image.length + 1 - i}" [ngStyle]="{'top.px': 0}"
+                        [ngStyle]="{'left': i * 10 + '%'}" *ngFor="let img of javascript_compiler_image; let i = index">
                         <img [src]="img" class="img-fluid" [alt]="img" style="width: 100%;" />
                     </div>
                 </div>

@@ -28,4 +28,8 @@ export class ProjectsComponent {
     'assets/tasklist-web-images/img_web_6.png',
     'assets/tasklist-web-images/img_web_3.png',
   ]
+
+  javascript_compiler_image = [
+    'assets/javascriptcompiler.png',
+  ]
 }
