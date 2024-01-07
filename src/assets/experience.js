@@ -6,10 +6,10 @@ export const Experience = [
       "startDate": "Aug 2021",
       "endDate": "Oct 2023",
       "responsibilities": [
-        "Transformed client web-page intuitively to a new functional look",
-        "Proficient in handling dynamic data presentation, implementing innovative approaches for reports, and integrating versatile features",
-        "Drawing/Plotting contours over image dynamically along with changing images using slider.",
-        "Played role in developing Java-based APIs for the backend infrastructure, involving coding and maintaining RESTful APIs to ensure seamless data transmission and functionality integration"
+        "Orchestrated a website transformation for the client, ensuring enhanced user-friendliness and functionality. The redesigned interface not only feels intuitive but also sustains a refreshed and enriched user experience.",
+        "Coordinated the dynamic presentation of data, implementing innovative approaches for reports, and seamlessly integrating versatile features.",
+        "Sustainably implemented the drawing and plotting of contours over images, dynamically changing with a slider for an engaging user experience.",
+        "Spearheaded the development of Java-based APIs for the backend infrastructure, involving coding and maintenance of RESTful APIs to ensure sustained seamless data transmission and integration of functionalities."
       ]
     },
     {
@@ -19,9 +19,10 @@ export const Experience = [
       "startDate": "Jan 2020",
       "endDate": "Jul 2021",
       "responsibilities": [
-        "Contributed to live websites, including GeekyAnts, TheTopGeek, and NativeBase.",
-        "Worked on TheTopGeek web development, a job portal, and contributed to NativeBase, a React-Native mobile app component library.",
-        "Worked on backend development of the GeekyAnts website."
+        "Played a key role in enhancing live websites such as GeekyAnts, TheTopGeek, and NativeBase.",
+        "Spearheaded web development for TheTopGeek, a dynamic job portal, ensuring impactful contributions",
+        "Contributed significantly to the advancement of NativeBase, a React-Native mobile app component library.",
+        "Drove backend development for the GeekyAnts website, optimizing performance and functionality."
       ]
     },
     {
@@ -31,7 +32,7 @@ export const Experience = [
       "startDate": "Jul 2019",
       "endDate": "Dec 2019",
       "responsibilities": [
-        "Started learning and implementing web development for transforming desktop application to web application using REST API services"
+        "Embarked on the journey of learning and implementing web development to transform a desktop application into a web application, leveraging REST API services."
       ]
     }
   ]
