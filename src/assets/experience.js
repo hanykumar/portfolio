@@ -6,10 +6,10 @@ export const Experience = [
       "startDate": "Aug 2021",
       "endDate": "Oct 2023",
       "responsibilities": [
-        "Orchestrated a website transformation for the client, ensuring enhanced user-friendliness and functionality. The redesigned interface not only feels intuitive but also sustains a refreshed and enriched user experience.",
-        "Coordinated the dynamic presentation of data, implementing innovative approaches for reports, and seamlessly integrating versatile features.",
-        "Sustainably implemented the drawing and plotting of contours over images, dynamically changing with a slider for an engaging user experience.",
-        "Spearheaded the development of Java-based APIs for the backend infrastructure, involving coding and maintenance of RESTful APIs to ensure sustained seamless data transmission and integration of functionalities."
+        "Complete website transformation for the client, ensuring the requirements, design, responsiveness, restructuring of code, and lazy loading resulted into much faster loading website.",
+        "Coordinated the dynamic presentation of data in nested tables, including images, implementing innovative approaches for dynamic reports, which resulted in a unified report for multiple types of reports with unified table and image modules.",
+        "Implemented the drawing/plotting of contours over images, dynamically changing with a slider for the best user experience, as per the requirement. ",
+        "Development of Java-based APIs for the backend infrastructure, involving coding and maintenance of RESTful APIs to ensure sustained seamless data transmission and integration of functionalities. "
       ]
     },
     {
@@ -32,7 +32,7 @@ export const Experience = [
       "startDate": "Jul 2019",
       "endDate": "Dec 2019",
       "responsibilities": [
-        "Embarked on the journey of learning and implementing web development to transform a desktop application into a web application, leveraging REST API services."
+        "Started career in learning and implementing web development to transform a desktop application into a web application, leveraging REST API services."
       ]
     }
   ]

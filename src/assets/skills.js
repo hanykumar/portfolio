@@ -23,7 +23,7 @@ export const Skills  = [
       "skills": [
         {
           "id": 0,
-          "name": "Angular v13",
+          "name": "Angular",
           "description": "",
           "rating": "80"
         },
@@ -37,7 +37,7 @@ export const Skills  = [
           "id": 2,
           "name": "React",
           "description": "",
-          "rating": "70"
+          "rating": "80"
         },
         {
           "id": 3,
