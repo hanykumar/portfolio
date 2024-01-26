@@ -2,7 +2,7 @@
   // width: 400px; /* Adjust as needed */
   // margin-right: 10px; /* Add margin between images */
   overflow: hidden;
-  position: absolute;
+  // position: absolute;
   transition: transform 0.3s ease-in-out;
   // padding: 3px;
   border-radius: 20px;
@@ -18,7 +18,7 @@
 }
 
 .image-wrapper:hover {
-  transform: scale(1.8);
+  transform: scale(1.02);
   z-index: 20;
 }
 .img-fluid{
