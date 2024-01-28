@@ -1,0 +1,27 @@
+<!-- image-slider.component.html -->
+<div #imageContainer class="image-slider">
+    <div *ngFor="let image of images; let i = index" class="thumbnail" (click)="showImage(i)">
+        <img src="{{ image }}" alt="Image {{ i + 1 }}">
+    </div>
+   
+
+
+    <div *ngIf="selectedImageIndex !== null" class="fullscreen-overlay" >
+        <div class="fullscreen-image">
+            <img src="{{ images[selectedImageIndex] }}" alt="Full Screen Image">
+        </div>
+        <div class="nav-btn prev" (click)="showPrevImage()">
+            <mat-icon>keyboard_arrow_left</mat-icon>
+        </div>
+        <div class="nav-btn next" (click)="showNextImage()">
+            <mat-icon>keyboard_arrow_right</mat-icon>
+        </div>
+        <div class="close-btn" (click)="closeFullscreen()">
+            <mat-icon>close</mat-icon>
+        </div>
+    </div>
+</div>
+<div class="d-flex">
+    <button (click)="scrollImagesLeft()" class="btn btn-link"><mat-icon>keyboard_arrow_left</mat-icon></button>
+    <button (click)="scrollImagesRight()" class="btn btn-link"><mat-icon>keyboard_arrow_right</mat-icon></button>
+</div>

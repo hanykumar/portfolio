@@ -16,9 +16,7 @@
                     </div>
                 </div>
                 <div style="height: max-content; width: 100%; " class="rounded overflow-hidden">
-                    <ng-image-slider [images]="tasklist_app_images" #nav [lazyLoading]="true" [infinite]="true"
-                        [animationSpeed]="0.4"  [imageSize]="{ height: '240px', width: '120px', space: 3}"
-                        ></ng-image-slider>
+                    <app-image-slider [images]="tasklist_app_images"></app-image-slider>
                 </div>
             </div>
         </div>
@@ -36,9 +34,7 @@
                     </div>
                 </div>
                 <div class="w-100">
-                    <ng-image-slider [images]="tasklist_web_images" #nav [lazyLoading]="true" [infinite]="true"
-                        [animationSpeed]="0.4" [imageSize]="{ height: '150px', width: '280px', space: 3}"
-                        ></ng-image-slider>
+                    <app-image-slider [images]="tasklist_web_images"></app-image-slider>
                 </div>
             </div>
         </div>
@@ -56,10 +52,7 @@
                     </div>
                 </div>
                 <div class="w-100">
-                    <ng-image-slider [images]="javascript_compiler_image" #nav [lazyLoading]="true" 
-                    [infinite]="false"
-                        [animationSpeed]="0.4"  [imageSize]="{ height: '150px', width: '280px'}"
-                       ></ng-image-slider>
+                    <app-image-slider [images]="javascript_compiler_image"></app-image-slider>
                 </div>
             </div>
         </div>
