@@ -1,10 +1,11 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
+import { ImageSliderComponent } from '../image-slider/image-slider.component';
 
 @Component({
   selector: 'app-projects',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, ImageSliderComponent],
   templateUrl: './projects.component.html',
   styleUrl: './projects.component.scss'
 })
@@ -20,6 +21,7 @@ export class ProjectsComponent {
     'assets/tasklist-app-images/img_3.jpg',
   ]
 
+
   tasklist_web_images = [
     'assets/tasklist-web-images/img_web_1.png',
     'assets/tasklist-web-images/img_web_2.png',
@@ -29,7 +31,9 @@ export class ProjectsComponent {
     'assets/tasklist-web-images/img_web_3.png',
   ]
 
+
   javascript_compiler_image = [
     'assets/javascriptcompiler.png',
   ]
+
 }
