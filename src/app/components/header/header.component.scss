@@ -3,10 +3,49 @@
   }
 
   .nav-item {
-    padding-left: 7px;
+    margin: 2px;
+    // padding: 0 10px;
+  }
+  .active-user {
+    border: 2px solid teal;
+    border-radius: 50px;
+    overflow: hidden;
+  }
+  .active-user:hover {
+    border-radius: 50px;
+    overflow: hidden;
   }
 
   .nav-item:hover {
     background-color: rgb(216, 216, 216);
     border-radius: 6px;
   }
+  
+  .active {
+    position: relative;
+    border-radius: 6px;
+  }
+
+  .active::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: teal;
+    color: teal;
+    animation: activeMenu 0.4s ease-in-out;
+  }
+  
+  @keyframes activeMenu {
+    0% {
+      width: 0%;
+    }
+    100% {
+      background-color: rgb(18, 161, 161);
+      width: 100%;
+      color: teal !important;
+    }
+  }
+  

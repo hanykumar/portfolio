@@ -1,28 +1,32 @@
 export const HeaderMenu = [{
-    href: '#projects',
+    href: 'home',
+    title: 'Home'
+},
+{
+    href: 'projects',
     title: 'Projects'
 },
 {
-    href: '#experience',
+    href: 'experience',
     title: 'Experience'
 },
 {
-    href: '#technical-skills',
+    href: 'technical-skills',
     title: 'Technical Skills'
 },
 {
-    href: '#education',
+    href: 'education',
     title: 'Education'
 },
 {
-    href: '#publication',
+    href: 'publication',
     title: 'Publication'
 },
 {
-    href: '#about',
+    href: 'about',
     title: 'About Me'
 },
 {
-    href: '#resume',
+    href: 'resume',
     title: 'Resume'
 }]
