@@ -24,8 +24,8 @@ export class HeaderComponent {
   constructor(private location: Location) {
 
   }
-  closeNavbar = (menu: any) => {
-    this.selectedSection = menu.href;
+  closeNavbar = (href: any) => {
+    this.selectedSection = href;
     var navbarToggleBtn = document.getElementById('navbarToggleBtn');
     if (navbarToggleBtn && !this.isNavbarCollapsed) {
       navbarToggleBtn.click();
