@@ -9,7 +9,6 @@ import { ExperienceComponent } from '../components/experience/experience.compone
 import { ResumeComponent } from '../components/resume/resume.component';
 import { PublicationComponent } from '../components/publication/publication.component';
 import { FooterComponent } from '../components/footer/footer.component';
-import { ImageSliderComponent } from '../components/image-slider/image-slider.component';
 
 @Component({
   selector: 'app-home',
@@ -25,7 +24,6 @@ import { ImageSliderComponent } from '../components/image-slider/image-slider.co
     ResumeComponent,
     FooterComponent,
     AboutComponent,
-    // ImageSliderComponent
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'

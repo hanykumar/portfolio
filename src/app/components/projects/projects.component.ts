@@ -1,11 +1,12 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { ImageSliderComponent } from '../image-slider/image-slider.component';
+import { MatIconModule } from '@angular/material/icon';
 
 @Component({
   selector: 'app-projects',
   standalone: true,
-  imports: [CommonModule, ImageSliderComponent],
+  imports: [CommonModule, ImageSliderComponent, MatIconModule],
   templateUrl: './projects.component.html',
   styleUrl: './projects.component.scss'
 })
