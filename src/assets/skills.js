@@ -23,33 +23,33 @@ export const Skills  = [
       "skills": [
         {
           "id": 0,
-          "name": "Angular",
-          "description": "",
-          "rating": "80"
-        },
-        {
-          "id": 1,
-          "name": "Next.js v14",
-          "description": "",
-          "rating": "70"
-        },
-        {
-          "id": 2,
           "name": "React",
           "description": "",
           "rating": "80"
         },
         {
-          "id": 3,
+          "id": 1,
           "name": "React-Native",
           "description": "",
           "rating": "80"
         },
         {
-          "id": 4,
-          "name": "Node.js and Express",
+          "id": 2,
+          "name": "Angular",
+          "description": "",
+          "rating": "70"
+        },
+        {
+          "id": 3,
+          "name": "Next.js v14",
           "description": "",
           "rating": "60"
+        },
+        {
+          "id": 4,
+          "name": "Node",
+          "description": "",
+          "rating": "70"
         }
       ]
     },
