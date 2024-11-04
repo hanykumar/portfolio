@@ -3,7 +3,7 @@ export const Experience = [
     "position": "Senior Software Engineer",
     "company": "LTIMindtree",
     "location": "Bangalore, Karnataka",
-    "startDate": "March 2021",
+    "startDate": "March 2024",
     "endDate": "Currently working",
     "responsibilities": [
       "Working on Orion project based on BackStage.",
