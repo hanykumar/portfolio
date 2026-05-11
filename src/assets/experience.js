@@ -4,9 +4,9 @@ export const Experience = [
     "company": "LTIMindtree",
     "location": "Bangalore, Karnataka",
     "startDate": "March 2024",
-    "endDate": "Currently working",
+    "endDate": "April 2026",
     "responsibilities": [
-      "Working on Orion project based on BackStage.",
+      "Worked on Orion project based on BackStage.",
       "Contribution in UI.",
       "Understanding requirements, providing solution and maintaining Jira accordingly",
       "Development of restful APIs for the backend infrastructure in node."

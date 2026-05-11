@@ -2,6 +2,10 @@
   "name": "Hany Kumar Portfolio",
   "version": "0.0.2",
   "scripts": {
+    "generate:project-images": "node scripts/generate-image-manifest.mjs",
+    "prestart": "npm run generate:project-images",
+    "prebuild": "npm run generate:project-images",
+    "pretest": "npm run generate:project-images",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
